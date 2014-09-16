@@ -2,7 +2,7 @@ FROM ubuntu
 
 RUN apt-get update && apt-get upgrade -y
 
-RUN apt-get install build-essential git python -y
+RUN apt-get install build-essential git python curl -y
 
 RUN mkdir /Development
 RUN cd /Development && git clone git://github.com/joyent/node
