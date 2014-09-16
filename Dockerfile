@@ -15,4 +15,4 @@ RUN curl https://j.mp/spf13-vim3 -L > spf13-vim.sh ; sh spf13-vim.sh
 
 RUN wget http://redis.googlecode.com/files/redis-2.4.17.tar.gz ; tar xvf redis-2.4.17.tar.gz ; cd redis-2.4.17 ; make ; make install ; redis-server ./redis.conf&
 
-RUN git clone https://github.com/gravityonmars/Balloons.IO.git ; cd Balloons.IO ; npm install ; mv config/config.sample.json config/config.json ; node balloons &
+RUN git clone https://github.com/gravityonmars/Balloons.IO.git ; cd Balloons.IO ; npm install ; mv config/config.sample.json config/config.json
