@@ -1,4 +1,5 @@
-FROM ubuntu
+FROM ubuntu:trusty
+MAINTAINER Matt Koski <maccam912@gmail.com>
 
 RUN apt-get update ; apt-get upgrade -y
 
